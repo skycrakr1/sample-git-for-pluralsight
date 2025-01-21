@@ -7,7 +7,11 @@ public class User {
 
   private int age;
 
-  public String getName() {
+  public User() {
+	super();
+}
+
+public String getName() {
 	return name;
   }
 
